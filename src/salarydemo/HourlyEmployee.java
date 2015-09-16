@@ -11,7 +11,7 @@ package salarydemo;
  */
 public class HourlyEmployee extends Employee
 {
-   private double hourlyWage;
+   protected double hourlyWage;
 
    /**
       Constructs an hourly employee with a given name and weekly wage.
