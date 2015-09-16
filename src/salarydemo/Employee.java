@@ -44,6 +44,11 @@ public class Employee
       @param hoursWorked the number of hours worked in the week
       @return the pay for the given number of hours
    */
+    public boolean payment() 
+    {
+        return true;
+    }
+       
    public double weeklyPay(int hoursWorked)
    {
       return 0; 
